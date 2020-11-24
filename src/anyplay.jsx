@@ -14,7 +14,7 @@ class Anyplay extends Component {
         mode: false,
         more: false,
         seachi: '',
-        switch: true,
+        switch: false,
     }
 
 
@@ -51,7 +51,7 @@ class Anyplay extends Component {
         return (
             <div className={this.state.mode === false ? "mode-UI-Light" : "mode-UI-Black"}>
 
-                {this.state.switch === true ?  <Genres /> :
+                {this.state.switch === true ? <Genres /> :
                     <Body />}
 
                 <div className="navbar">
