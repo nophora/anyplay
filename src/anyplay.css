@@ -1,0 +1,178 @@
+.mode-UI-Light{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    color:rgb(0, 0, 0);
+    transition: 1s;
+    flex-direction: column;
+}
+.mode-UI-Black{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    color:rgb(0, 0, 0);
+    transition: 1s;
+    flex-direction: column;
+}
+
+.navbar{
+    width: 100%;
+    height: 39px;
+    background-color: rgb(0, 140, 255);
+    display: flex;
+    box-shadow: 0px 2px 13px 2px rgb(0, 0, 0);
+    top:0px;
+    left: 0px;
+    z-index: 100px;
+    position: fixed;
+
+}
+.options{
+    width: 40%;
+    height: 100%;
+    background-color: rgba(38, 0, 255, 0);
+    display: flex;
+    justify-content: center;
+align-items: center;
+color: rgb(255, 255, 255);
+font-size: 12px;
+    
+}
+.more-options{
+    width: 57%;
+    height: 100%;
+    background-color: rgba(255, 0, 242, 0);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.search-and-more{
+    width: 200px;
+    height: 85%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(255, 0, 0, 0);
+   
+}
+.search-wrap{
+    width: 160px;
+    height: 100%;
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(253, 253, 253);
+   
+}
+.search-input{
+    width: 89%;
+    height: 89%;
+    outline: unset;
+    border: unset;
+    background-color: rgba(0, 226, 30, 0);
+   
+}
+.more-box{
+    width: 30px;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #fff;
+    background-color: rgba(251, 255, 0, 0);
+   border-radius: 5px;
+}
+.option1{
+margin: 1%;
+background-color: rgba(178, 34, 34, 0);
+}
+.option1-more{
+    margin-top: -1%;
+    margin-left: 2%;
+    width: 80px;
+    height:5px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(178, 80, 34, 0);
+    }
+    .op-more{
+        width: 64px;
+        height:13px;
+        align-self: flex-end;
+        display: flex;
+        cursor: pointer;
+        justify-content: space-around;
+        background-color: rgba(48, 34, 178, 0);
+        align-items: center;
+        text-align: center;
+    }
+    .drop-icon{
+        width: 12px;
+        height:12px;
+    }
+    .option1-more-2{
+        
+        width: 80px;
+        height: max-content;
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        background-color:  rgb(0, 140, 255);
+        }
+        .more-points{
+margin-top: 14%;
+            width: 100%;
+            height: max-content;
+            background-color: rgba(34, 137, 178, 0);
+        display: flex;
+       
+       align-content: center;
+        flex-direction: column;
+        
+        }
+
+        .point1{
+align-self: center;
+            width: 90%;
+            margin-top: 0.7%;
+            height: 17px;
+            display: flex;
+             justify-content: center;
+           cursor: pointer;
+            background-color: rgba(207, 6, 174, 0);
+       color: rgb(255, 255, 255);
+       animation: point 1s ease forwards;
+       animation-delay: 0.1s;
+       opacity: 0;
+           }
+
+        @keyframes point{
+            from{
+                opacity: 0;
+transform: translateY(-100px);
+            }
+            to{
+                opacity: 1;
+                transform: translateY(0px);
+            }
+        }
+        .point1:hover{
+            color: rgb(129, 129, 129);
+        }
+        .pc{
+            align-self: center;
+        }
+
+        .contact{
+            width: 100%;
+            height: 160px;
+            display: flex;
+            justify-content: center;
+           align-content: center;
+            color: rgb(255, 255, 255);
+            background-color:  rgb(0, 0, 0)
+           
+        }
